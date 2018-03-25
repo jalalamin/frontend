@@ -1,0 +1,241 @@
+body{
+	width:100%;
+	margin:0 auto;
+	background-color:#e2e4e8;
+}
+header{
+	padding:0 5%;
+	height:80px;
+	background:#232733;
+}
+.logo{
+	display:inline-block;
+	padding:13px 0px;
+}
+.logo .black_logo{
+	display:inline-block;
+	height:50px;
+	background:#000;
+	border-radius:5px;
+}
+.logo .black_logo:hover{
+	background:#5a0404;
+}
+.menu{
+	display:inline-block;
+	float:right;
+	padding: 30px 0px;
+}
+.menu ul{
+	display: inline-block;
+	margin: 0;
+	float:right;
+}
+.menu ul li{
+	display: inline-block;
+	list-style:none;
+	padding-left:20px;
+}
+.menu ul li a{
+	text-decoration:none;
+	color:green;
+}
+.menu ul li a:hover{
+	color:red;
+	text-decoration:underline;
+}
+.slider{
+	background:#af4747;
+	display:inline-block;
+}
+.slider img{
+	width:100%;
+	height:500px;
+}
+.service{
+	padding:50px 5%;
+	display:inline-block;
+	background:#af4747;
+}
+.service h1{
+	padding:20px;
+	background:#020202;
+	color:#fff;
+	text-align:center;
+	font-weight:900;
+}
+.web_dev{
+	width:25%;
+	float:left;
+	text-align:center;
+	background:#0a0a0a;
+	color:#eeeeee;
+	padding:2.5% 2.5% 2.5% 2.5%;
+}
+.graphic{
+	width:25%;
+	float:left;
+	padding:2.5% 2.5% 2.5% 2.5%;
+	text-align:center;
+	background:#0a0a0a;
+	color:#eeeeee;
+	margin:0 5%;
+}
+.app_dev{
+	width:25%;
+	float:right;
+	text-align:center;
+	background:#0a0a0a;
+	color:#eeeeee;
+	padding:2.5% 2.5% 2.5% 2.5%;
+}
+.web_dev img, .graphic img, .app_dev img{
+	width:200px;
+	height:200px;
+	border-radius:100%;
+}
+.team{
+	display:inline-block;
+	padding:5%;
+	background:#0a9e83;
+}
+.team h1{
+	padding:20px;
+	background:#020202;
+	color:#fff;
+	text-align:center;
+	font-weight:900;
+}
+.jalal{
+	width:20.25%;
+	float:left;
+	text-align:center;
+	background:#0a0a0a;
+	color:#eeeeee;
+	padding:2%;
+	position:relative;
+}
+.jalal:hover .social_media{
+	display:inline-block;
+}
+.jakir{
+	width:20.25%;
+	float:left;
+	text-align:center;
+	background:#0a0a0a;
+	color:#eeeeee;
+	padding:2%;
+	margin:0 .5% 0 1%;
+	position:relative;
+}
+.jakir:hover .social_media{
+	display:inline-block;
+}
+.samapty{
+	width:20.25%;
+	float:left;
+	text-align:center;
+	background:#0a0a0a;
+	color:#eeeeee;
+	padding:2%;
+	margin:0 1% 0 .5%;
+	position:relative;
+}
+.samapty:hover .social_media{
+	display:inline-block;
+}
+.jiobanni{
+	width:20.25%;
+	float:left;
+	text-align:center;
+	background:#0a0a0a;
+	color:#eeeeee;
+	padding:2%;
+	position:relative;
+}
+.jiobanni:hover .social_media{
+	display:inline-block;
+}
+.jalal img, .jakir img, .samapty img, .jiobanni img{
+	width:200px;
+	height:200px;
+	border-radius:5px;
+	box-shadow: 2px 2px 4px 2px #00fff3;
+}
+.social_media{
+	position:absolute;
+	background:rgba(6, 6, 6, 0.9);
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	display:none;
+}
+.social_media img{
+	width:45px;
+	height:45px;
+	box-shadow: none;
+	margin-top:50%;
+}
+.social_media img:hover{
+	border-radius:100%;
+}
+.social_media a{
+	text-decoration:none;
+}
+footer{
+	padding:0 5%;
+	background:#232733;
+	display:inline-block;
+	width:90%;
+	color:#fff;
+}
+footer h2{
+	text-decoration:underline;
+}
+footer hr{
+	display:none;
+}
+.footer_menu{
+	float:left;
+	display:inline-block;
+	width:30%;
+}
+.footer_menu ul{
+	list-style:none;
+	margin-left:0;
+	margin-top:30px;
+	padding-left:0;
+	padding-top:0;
+}
+.footer_menu ul li a{
+	text-decoration:none;
+	font-size:18px;
+	color:#fff;
+}
+.map{
+	width:40%;
+	float:left;
+}
+.map iframe{
+	padding: 0 0 50px 0;
+}
+.footer_social_media{
+	width:30%;
+	float:right;
+	text-align:right;
+}
+.footer_social_media h2{
+	margin-right:50px;
+}
+.social_media_icon img{
+	margin-top:20px;
+	width:45px;
+	height:45px;
+}
+.social_media_icon img:hover{
+	border-radius:100%;
+}
+.social_media_icon a{
+	text-decoration:none;
+}

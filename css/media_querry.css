@@ -1,0 +1,227 @@
+@media only screen and (max-width:360px) {
+  /* For Galaxy S5: */
+  header {
+		background-color: rgb(1, 80, 13);
+		padding:7px;
+		margin:0 auto;
+		height:40px;
+	}
+	.logo{
+		width:43px;
+		float:left;
+		padding:0;
+	}
+	.logo .black_logo{
+		height:40px;
+	}
+	.menu{
+		text-align:right;
+		width:303px;
+		padding:0;
+	}
+	.menu ul li{
+		padding:11px 1px;
+	}
+	.menu ul li a{
+		font-size:12px;
+		text-decoration:underline;
+		color:#fff;
+	}
+	.slider img{
+		width:100%;
+		height:auto;
+	}
+	.service{
+		padding:7px;
+	}
+	.service h1{
+		padding:10px;
+		font-weight:100;
+		margin:5px 0;
+	}
+	.service p{
+		margin:0 20px;
+	}
+	.web_dev{
+		width:346px;
+		padding:25px 0;
+		margin-bottom:10px;
+	}
+	.graphic{
+		width:346px;
+		padding:25px 0;
+		margin:0;
+		margin-bottom:10px;
+	}
+	.app_dev{
+		width:346px;
+		padding:25px 0;
+	}
+	.team{
+		padding:7px;
+	}
+	.team h1{
+		padding: 10px;
+		font-weight: 100;
+		margin: 5px 0;
+	}
+	.team p{
+		margin:0 20px;
+	}
+	.jalal{
+		width:346px;
+		padding:15px 0;
+		position:relative;
+		margin-bottom:10px;
+	}
+	.jakir{
+		width:346px;
+		padding:15px 0;
+		position:relative;
+		margin-bottom:10px;
+	}
+	.samapty{
+		width:346px;
+		padding:15px 0;
+		position:relative;
+		margin-bottom:10px;
+	}
+	.jiobanni{
+		width:346px;
+		padding:15px 0;
+		position:relative;
+	}
+	.social_media{
+		position:relative;
+		display:inline-block;
+		padding-top:20px;
+	}
+	.social_media img{
+		margin-top:0;
+	}
+	footer{
+		padding:7px;
+		width:346px;
+		text-align:center;
+	}
+	footer hr{
+		display:block;
+	}
+	.footer_menu{
+		width:346px;
+	}
+	.map{
+		width:346px;
+	}
+	.footer_social_media{
+		width:346px;
+		text-align:center;
+		float:left;
+	}
+	.footer_social_media h2 {
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width: 640px) {
+  /* For mobile phones: */
+  
+	.slider img{
+			height:300px;
+    }
+  
+	.service{
+			padding:5px 5%;
+	}
+	.service h1{
+			padding:10px;
+			text-align:center;
+	}
+	.web_dev{
+			float:left;
+			width:25%;
+			height: 350px;
+	}
+	
+	.graphic{
+			float:left;
+			width:25%;
+			margin:0 5%;
+			height: 350px;
+			
+	}
+	.app_dev{
+			height: 350px;
+		
+	}
+	.web_dev img, .graphic img, .app_dev img{
+			width:150px;
+			height:150px;
+	}
+	.team{
+		padding:0 5%;
+	}
+	.team h1{
+			padding:10px;
+	}
+	.jalal{
+		width:45%;
+		float:left;
+		padding:2%;
+	}
+	.jakir{
+		width:45%;
+		float:right;
+		padding:2%;
+	}
+	.samapty{
+		width:45%;
+		float:left;
+		padding:2%;
+		margin:0%;
+		margin-top:5px;
+	}
+	.jiobanni{
+		width:45%;
+		float:right;
+		padding:2%;
+		margin-right:3px;
+		margin-top:5px;
+		margin-bottom:15px;
+		
+	}
+	.social_media{
+		position:relative;
+		display:inline-block;
+		
+    }
+	.social_media img{
+			width:45px;
+			height:45px;
+			margin-top:10%;
+	}
+	.footer{
+			padding:0 5%;
+	}
+	.footer_menu{
+			float:left;
+			width:40%;
+			margin-left:20px;
+    }
+	.map iframe{
+			height:120px;
+			margin-left:70px;
+	}
+	.map h2{
+			margin-left: 70px;
+		
+	}
+	.footer_social_media{
+			width:100%;
+			text-align:center;
+    }
+	.footer_social_media h2{
+			margin-right:10px;
+		
+	}
+	
+}
